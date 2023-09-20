@@ -17,5 +17,8 @@
 # text = b'abc'
 # print(text)
 
-abcd = "_"
-print(type(abcd))
+# abcd = "_"
+# print(type(abcd))
+
+for i in range(21,43):
+    print(i)
