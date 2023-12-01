@@ -26,7 +26,7 @@ class BinaryTreeNode:
         return root
 
 if __name__ == "__main__":
-    # 创建二叉树
+    # 創建二叉樹
     # root = BinaryTreeNode(1)
     # root.left = BinaryTreeNode(2)
     # root.right = BinaryTreeNode(3)
@@ -40,5 +40,5 @@ if __name__ == "__main__":
     for data in node_data:
         root = BinaryTreeNode.insert_node(root, data)
         
-    # 打印二叉树
+    # 打印二叉樹
     BinaryTreeNode.print_tree(root)
